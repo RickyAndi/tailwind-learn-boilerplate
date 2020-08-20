@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-olx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run copyvue && npm run buildcss",
+    "copyvue": "gulp copy-vue",
+    "buildcss": "postcss src/css/tailwind.css -o public/css/tailwind.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "copy": "^0.3.2",
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.6.2",
+    "vue": "^2.6.11"
+  },
+  "author": "",
+  "license": "ISC"
+}
